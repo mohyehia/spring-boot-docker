@@ -39,6 +39,6 @@ public class HomeController {
 
     @GetMapping("/maven")
     public String viewRunWithMaven(){
-        return "Hello from docker with maven plugin!";
+        return "Hello from docker with maven plugin with newly created Github Webhook!";
     }
 }
