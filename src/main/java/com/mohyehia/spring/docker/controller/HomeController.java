@@ -15,7 +15,7 @@ import java.util.List;
 public class HomeController {
     @GetMapping
     public String viewHello() {
-        return "Hello from spring boot app";
+        return "Hello from spring boot app with docker integration";
     }
 
     @GetMapping("/messages")
